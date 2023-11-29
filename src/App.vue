@@ -2,11 +2,12 @@
 
 <template>
   <div class="app">
-    <div class="nav">
+
+    <!-- <div class="nav">
       <router-link to="/index">Index</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/not-found">NotFound</router-link>
-    </div>
+    </div> -->
 
     <!-- 路由视图占位 -->
     <router-view></router-view>
@@ -19,7 +20,7 @@
   display: flex;
   a {
     padding: 0 20px;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #f3f5f7;
     line-height: 72px;
     background-color: #000;
     font-size: 16px;
